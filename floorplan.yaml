@@ -1,0 +1,544 @@
+type: picture-elements
+image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+elements:
+  - type: conditional
+    title: Base
+    conditions:
+      []
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/base.png?version=3B725AC310B47C790A6CDE6CE2CD5683
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: switch.pantry_lights
+    conditions:
+      - condition: state
+        entity: switch.pantry_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.pantry_lights.png?version=2C6E0875E5A202A61632B6445EC5522C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.guest_center_lights
+    conditions:
+      - condition: state
+        entity: switch.guest_center_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.guest_center_lights.png?version=BE5A5ED584A17927E8B933B00EF22485
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.kitchen_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.kitchen_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.kitchen_pin_lights.png?version=AF8FDC785045F586080B7D56E1C07F5A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.guest_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.guest_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.guest_pin_lights.png?version=4DAC0AEA61EE347ACCFA47146F3C7D0C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.living_center_lights
+    conditions:
+      - condition: state
+        entity: switch.living_center_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.living_center_lights.png?version=74C3A8148B8698FA0D01EF9E5EBA3372
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.powder_lights
+    conditions:
+      - condition: state
+        entity: switch.powder_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.powder_lights.png?version=0422028649A861E737CDE7126C1AD5CD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.living_strip_light
+    conditions:
+      - condition: state
+        entity: switch.living_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.living_strip_light.png?version=B9F88A6E6B4875B6D05BEA6D61992512
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.living_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.living_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.living_pin_lights.png?version=7679C7038AB1A6E039F5F4C73E8A5F82
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.service_area_lights
+    conditions:
+      - condition: state
+        entity: switch.service_area_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.service_area_lights.png?version=3E2B54C39D4E9BE1B60C6D1C6A372624
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.lanai_lights
+    conditions:
+      - condition: state
+        entity: switch.lanai_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.lanai_lights.png?version=0F102C1840DA0A82C12179001968A3D3
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.kitchen_cabinet_lights
+    conditions:
+      - condition: state
+        entity: switch.kitchen_cabinet_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.kitchen_cabinet_lights.png?version=88FF6CCC0F5F179AFD9E7A3FD604983C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.entrance_lights
+    conditions:
+      - condition: state
+        entity: switch.entrance_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.entrance_lights.png?version=32102227958580C4DA900BE864C970AD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.gate_lights
+    conditions:
+      - condition: state
+        entity: switch.gate_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.gate_lights.png?version=44AD11B076C74E4872F4424FBFB70530
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.garage_lights
+    conditions:
+      - condition: state
+        entity: switch.garage_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.garage_lights.png?version=B99C4F364B036C95643E31C113D664E2
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.dining_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.dining_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.dining_pin_lights.png?version=CF3EA0123F06D47DBB3730953682ECCA
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: state-icon
+    entity: switch.pantry_lights
+    title: null
+    style:
+      top: 41.11%
+      left: 63.43%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.guest_center_lights
+    title: null
+    style:
+      top: 23.97%
+      left: 61.80%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.kitchen_pin_lights
+    title: null
+    style:
+      top: 39.96%
+      left: 54.61%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.guest_pin_lights
+    title: null
+    style:
+      top: 28.89%
+      left: 61.87%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.living_center_lights
+    title: null
+    style:
+      top: 49.52%
+      left: 42.66%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.powder_lights
+    title: null
+    style:
+      top: 56.24%
+      left: 51.64%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.living_strip_light
+    title: null
+    style:
+      top: 56.23%
+      left: 42.48%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.living_pin_lights
+    title: null
+    style:
+      top: 52.89%
+      left: 44.50%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.service_area_lights
+    title: null
+    style:
+      top: 22.10%
+      left: 49.30%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.lanai_lights
+    title: null
+    style:
+      top: 31.25%
+      left: 37.65%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.kitchen_cabinet_lights
+    title: null
+    style:
+      top: 32.24%
+      left: 52.61%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.entrance_lights
+    title: null
+    style:
+      top: 62.06%
+      left: 38.47%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.gate_lights
+    title: null
+    style:
+      top: 75.73%
+      left: 49.40%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.garage_lights
+    title: null
+    style:
+      top: 55.94%
+      left: 60.10%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.dining_pin_lights
+    title: null
+    style:
+      top: 38.00%
+      left: 43.09%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info

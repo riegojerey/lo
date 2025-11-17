@@ -1,0 +1,719 @@
+type: picture-elements
+image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+elements:
+  - type: conditional
+    title: Base
+    conditions:
+      []
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/base.png?version=E52D17BA12AC4655219055D0B8834FBC
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: switch.pantry_lights
+    conditions:
+      - condition: state
+        entity: switch.pantry_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.pantry_lights.png?version=B25EA40E500A3B755A8E430A8DB3A239
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_wall_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_wall_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_wall_lights.png?version=E13C8BE04BB8617B9E7518BE71C4A8F8
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.secondfloor_bathroom_lights
+    conditions:
+      - condition: state
+        entity: switch.secondfloor_bathroom_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.secondfloor_bathroom_lights.png?version=F66D431BBDE5AD1C327341D668EF3EBE
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.powder_lights
+    conditions:
+      - condition: state
+        entity: switch.powder_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.powder_lights.png?version=1260A3CE5F36F162B9167C9D89D4897B
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_center_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_center_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_center_lights.png?version=282593563AFA199F52F7CC16606056EE
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_balcony_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_balcony_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_balcony_pin_lights.png?version=8D98ADFAFC9EC854C51D6BE6549C7AA5
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_strip_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_strip_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_strip_lights.png?version=16AA4814A4A681369F0F2F4C2D7D135A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_closet_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_closet_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_closet_lights.png?version=7EDFB1D64797AEA8ADDEE5CD3892E9F2
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_balcony_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_balcony_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_balcony_pin_lights.png?version=24D4C5B47A7E431E6457A1CF12D234F1
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_pin_lights.png?version=35D49A0BFB2970B79798F5B474E90E14
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.secondfloor_hallway_lights
+    conditions:
+      - condition: state
+        entity: switch.secondfloor_hallway_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.secondfloor_hallway_lights.png?version=211A2E3161D5D6BD68BCC9B909E27760
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_balcony_wall_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_balcony_wall_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_balcony_wall_lights.png?version=16569C3FA26A458A638DADD098CCC20F
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_center_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_center_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_center_lights.png?version=C063375BC8CBEA8E9657010C4A5B2E3A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_pin_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_pin_lights.png?version=18152426B40A8AD86987D34061751492
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_strip_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_strip_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_strip_lights.png?version=D2D03EB501AA00EB682E01E2C8C7780D
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.lanai_lights
+    conditions:
+      - condition: state
+        entity: switch.lanai_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.lanai_lights.png?version=CC21EB4C5C637B0FF23B594C44E94AD1
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.entrance_lights
+    conditions:
+      - condition: state
+        entity: switch.entrance_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.entrance_lights.png?version=26EE3EE14096404741297990E326BCE5
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.gate_lights
+    conditions:
+      - condition: state
+        entity: switch.gate_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.gate_lights.png?version=428316B2DD5C776504A67EEA8E5152A3
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_balcony_wall_lights
+    conditions:
+      - condition: state
+        entity: switch.masters_balcony_wall_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_balcony_wall_lights.png?version=C88E97BF86789B7C77BD0083670DDB06
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.br1_closet_lights
+    conditions:
+      - condition: state
+        entity: switch.br1_closet_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.br1_closet_lights.png?version=A8F49BFF27F3DF300BB961E1C767A5D6
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: state-icon
+    entity: switch.pantry_lights
+    title: null
+    style:
+      top: 39.32%
+      left: 63.69%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_wall_lights
+    title: null
+    style:
+      top: 50.42%
+      left: 66.59%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.secondfloor_bathroom_lights
+    title: null
+    style:
+      top: 28.97%
+      left: 51.48%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.powder_lights
+    title: null
+    style:
+      top: 56.24%
+      left: 51.64%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_center_lights
+    title: null
+    style:
+      top: 43.99%
+      left: 63.14%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_balcony_pin_lights
+    title: null
+    style:
+      top: 65.52%
+      left: 62.73%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_strip_lights
+    title: null
+    style:
+      top: 49.21%
+      left: 42.37%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_closet_lights
+    title: null
+    style:
+      top: 30.13%
+      left: 61.42%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_balcony_pin_lights
+    title: null
+    style:
+      top: 52.04%
+      left: 36.76%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_pin_lights
+    title: null
+    style:
+      top: 50.30%
+      left: 39.69%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.secondfloor_hallway_lights
+    title: null
+    style:
+      top: 36.84%
+      left: 51.54%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_balcony_wall_lights
+    title: null
+    style:
+      top: 59.95%
+      left: 46.42%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_center_lights
+    title: null
+    style:
+      top: 45.58%
+      left: 39.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_pin_lights
+    title: null
+    style:
+      top: 46.15%
+      left: 60.71%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_strip_lights
+    title: null
+    style:
+      top: 50.95%
+      left: 61.39%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.lanai_lights
+    title: null
+    style:
+      top: 31.25%
+      left: 37.65%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.entrance_lights
+    title: null
+    style:
+      top: 62.06%
+      left: 38.47%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.gate_lights
+    title: null
+    style:
+      top: 75.73%
+      left: 49.40%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_balcony_wall_lights
+    title: null
+    style:
+      top: 59.82%
+      left: 61.84%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.br1_closet_lights
+    title: null
+    style:
+      top: 30.24%
+      left: 41.59%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
