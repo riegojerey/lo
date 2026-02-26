@@ -1,5 +1,5 @@
 type: picture-elements
-image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+image: /local/floorplan/2F/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
 elements:
   - type: conditional
     title: Base
@@ -11,7 +11,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/base.png?version=A2B5C5474FD07AA4BABB1B50D6D4358B
+        image: /local/floorplan/2F/base.png?version=A2B5C5474FD07AA4BABB1B50D6D4358B
         filter: none
         style:
           left: 50%
@@ -29,7 +29,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_wall_lights.png?version=6F03072BDFE65BE9AF631602D92552D5
+        image: /local/floorplan/2F/switch.masters_wall_lights.png?version=6F03072BDFE65BE9AF631602D92552D5
         filter: none
         style:
           left: 50%
@@ -48,7 +48,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.secondfloor_bathroom_pin_lights.png?version=18F9C89D84B767BD58EA2CA4ADC82A85
+        image: /local/floorplan/2F/switch.secondfloor_bathroom_pin_lights.png?version=18F9C89D84B767BD58EA2CA4ADC82A85
         filter: none
         style:
           left: 50%
@@ -67,7 +67,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.secondfloor_bathroom_lights.png?version=B481E2C3994357363182B2168A78BD71
+        image: /local/floorplan/2F/switch.secondfloor_bathroom_lights.png?version=B481E2C3994357363182B2168A78BD71
         filter: none
         style:
           left: 50%
@@ -86,7 +86,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_center_lights.png?version=769A673119E12D00DAA214F07CFE902B
+        image: /local/floorplan/2F/switch.masters_center_lights.png?version=769A673119E12D00DAA214F07CFE902B
         filter: none
         style:
           left: 50%
@@ -105,7 +105,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_balcony_pin_lights.png?version=4B7F61FA0E4EAE1AA1743AEF73AD2088
+        image: /local/floorplan/2F/switch.masters_balcony_pin_lights.png?version=4B7F61FA0E4EAE1AA1743AEF73AD2088
         filter: none
         style:
           left: 50%
@@ -124,7 +124,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_strip_lights.png?version=91263CC71377E933AE006B6D8C621E45
+        image: /local/floorplan/2F/switch.br1_strip_lights.png?version=91263CC71377E933AE006B6D8C621E45
         filter: none
         style:
           left: 50%
@@ -143,7 +143,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_closet_lights.png?version=52EE475F69709D8FE5C2DB91386ECA75
+        image: /local/floorplan/2F/switch.masters_closet_lights.png?version=52EE475F69709D8FE5C2DB91386ECA75
         filter: none
         style:
           left: 50%
@@ -162,7 +162,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.2f_t_b_vanity.png?version=A2502C39795C9734E3C1EA7E1DEC1B09
+        image: /local/floorplan/2F/switch.2f_t_b_vanity.png?version=A2502C39795C9734E3C1EA7E1DEC1B09
         filter: none
         style:
           left: 50%
@@ -181,7 +181,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_balcony_pin_lights.png?version=D6D6BE47E7640EE17867CBB29F48E213
+        image: /local/floorplan/2F/switch.br1_balcony_pin_lights.png?version=D6D6BE47E7640EE17867CBB29F48E213
         filter: none
         style:
           left: 50%
@@ -200,7 +200,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_pin_lights.png?version=347151D3A75D5874FA46C01A0F19D05B
+        image: /local/floorplan/2F/switch.br1_pin_lights.png?version=347151D3A75D5874FA46C01A0F19D05B
         filter: none
         style:
           left: 50%
@@ -219,7 +219,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.2f_t_b_niche.png?version=2CD508162412CD4814F2B94F28A8683E
+        image: /local/floorplan/2F/switch.2f_t_b_niche.png?version=2CD508162412CD4814F2B94F28A8683E
         filter: none
         style:
           left: 50%
@@ -238,7 +238,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.secondfloor_hallway_lights.png?version=47D143E6A20CDCD62AF57C050DCBBAD2
+        image: /local/floorplan/2F/switch.secondfloor_hallway_lights.png?version=47D143E6A20CDCD62AF57C050DCBBAD2
         filter: none
         style:
           left: 50%
@@ -257,7 +257,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_balcony_wall_lights.png?version=48E65D95E569811F45BA512EA412FA3B
+        image: /local/floorplan/2F/switch.br1_balcony_wall_lights.png?version=48E65D95E569811F45BA512EA412FA3B
         filter: none
         style:
           left: 50%
@@ -276,7 +276,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_center_lights.png?version=0252808C18AD86331B6300C929B9553D
+        image: /local/floorplan/2F/switch.br1_center_lights.png?version=0252808C18AD86331B6300C929B9553D
         filter: none
         style:
           left: 50%
@@ -295,7 +295,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_pin_lights.png?version=938C7FDFC4884BBCE6F5A5ED55DFEAB5
+        image: /local/floorplan/2F/switch.masters_pin_lights.png?version=938C7FDFC4884BBCE6F5A5ED55DFEAB5
         filter: none
         style:
           left: 50%
@@ -314,7 +314,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_strip_lights.png?version=2E69678150A9D785CB3008D0E34A1065
+        image: /local/floorplan/2F/switch.masters_strip_lights.png?version=2E69678150A9D785CB3008D0E34A1065
         filter: none
         style:
           left: 50%
@@ -333,7 +333,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.masters_balcony_wall_lights.png?version=048E64D4BDDF4403C96D552BDA956C0B
+        image: /local/floorplan/2F/switch.masters_balcony_wall_lights.png?version=048E64D4BDDF4403C96D552BDA956C0B
         filter: none
         style:
           left: 50%
@@ -352,7 +352,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.br1_closet_lights.png?version=DE94FC16054888F82F5D9254F3061175
+        image: /local/floorplan/2F/switch.br1_closet_lights.png?version=DE94FC16054888F82F5D9254F3061175
         filter: none
         style:
           left: 50%
