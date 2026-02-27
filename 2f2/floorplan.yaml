@@ -208,6 +208,25 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
+    title: switch.2f_t_b_niche
+    conditions:
+      - condition: state
+        entity: switch.2f_t_b_niche
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.2f_t_b_niche.png?version=AC4FBC5D54EBCAA4AAABD37C61A7150F
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
     title: switch.secondfloor_hallway_lights
     conditions:
       - condition: state
@@ -344,7 +363,7 @@ elements:
     entity: switch.secondfloor_bathroom_pin_lights
     title: null
     style:
-      top: 28.38%
+      top: 28.44%
       left: 52.70%
       border-radius: 50%
       text-align: center
@@ -360,7 +379,7 @@ elements:
     entity: switch.masters_center_lights
     title: null
     style:
-      top: 58.16%
+      top: 58.23%
       left: 71.00%
       border-radius: 50%
       text-align: center
@@ -376,7 +395,7 @@ elements:
     entity: switch.masters_balcony_pin_lights
     title: null
     style:
-      top: 89.60%
+      top: 89.67%
       left: 70.41%
       border-radius: 50%
       text-align: center
@@ -392,7 +411,7 @@ elements:
     entity: switch.br1_strip_lights
     title: null
     style:
-      top: 60.59%
+      top: 60.64%
       left: 32.03%
       border-radius: 50%
       text-align: center
@@ -408,7 +427,7 @@ elements:
     entity: switch.masters_closet_lights
     title: null
     style:
-      top: 30.96%
+      top: 31.03%
       left: 69.06%
       border-radius: 50%
       text-align: center
@@ -424,7 +443,7 @@ elements:
     entity: switch.masters_right
     title: null
     style:
-      top: 72.86%
+      top: 72.92%
       left: 76.12%
       border-radius: 50%
       text-align: center
@@ -440,7 +459,7 @@ elements:
     entity: switch.2f_t_b_vanity
     title: null
     style:
-      top: 21.51%
+      top: 21.57%
       left: 56.47%
       border-radius: 50%
       text-align: center
@@ -456,7 +475,7 @@ elements:
     entity: switch.br1_balcony_pin_lights
     title: null
     style:
-      top: 66.27%
+      top: 66.33%
       left: 28.83%
       border-radius: 50%
       text-align: center
@@ -472,7 +491,7 @@ elements:
     entity: switch.master_s_bed_lamp_light_left
     title: null
     style:
-      top: 50.63%
+      top: 50.69%
       left: 75.98%
       border-radius: 50%
       text-align: center
@@ -488,8 +507,24 @@ elements:
     entity: switch.br1_pin_lights
     title: null
     style:
-      top: 63.42%
-      left: 35.63%
+      top: 63.48%
+      left: 35.64%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.2f_t_b_niche
+    title: null
+    style:
+      top: 28.81%
+      left: 46.34%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -504,7 +539,7 @@ elements:
     entity: switch.secondfloor_hallway_lights
     title: null
     style:
-      top: 41.88%
+      top: 41.95%
       left: 52.67%
       border-radius: 50%
       text-align: center
@@ -520,7 +555,7 @@ elements:
     entity: switch.br1_balcony_wall_lights
     title: null
     style:
-      top: 78.58%
+      top: 78.64%
       left: 36.53%
       border-radius: 50%
       text-align: center
@@ -536,7 +571,7 @@ elements:
     entity: switch.br1_center_lights
     title: null
     style:
-      top: 58.83%
+      top: 58.92%
       left: 34.54%
       border-radius: 50%
       text-align: center
@@ -552,7 +587,7 @@ elements:
     entity: switch.masters_pin_lights
     title: null
     style:
-      top: 57.53%
+      top: 57.59%
       left: 68.25%
       border-radius: 50%
       text-align: center
@@ -568,7 +603,7 @@ elements:
     entity: switch.masters_strip_lights
     title: null
     style:
-      top: 59.46%
+      top: 59.52%
       left: 73.51%
       border-radius: 50%
       text-align: center
@@ -584,7 +619,7 @@ elements:
     entity: switch.masters_balcony_wall_lights
     title: null
     style:
-      top: 78.34%
+      top: 78.41%
       left: 68.77%
       border-radius: 50%
       text-align: center
@@ -600,7 +635,7 @@ elements:
     entity: switch.br1_closet_lights
     title: null
     style:
-      top: 30.48%
+      top: 30.54%
       left: 36.29%
       border-radius: 50%
       text-align: center
@@ -616,7 +651,7 @@ elements:
     entity: cover.bedroom_1_curtain_motor
     title: null
     style:
-      top: 73.77%
+      top: 73.83%
       left: 36.51%
       border-radius: 50%
       text-align: center
@@ -632,7 +667,7 @@ elements:
     entity: cover.bedroom_1_small_curtain_motor
     title: null
     style:
-      top: 37.54%
+      top: 37.60%
       left: 28.77%
       border-radius: 50%
       text-align: center
@@ -648,7 +683,7 @@ elements:
     entity: cover.master_s_bedroom_curtain_motor
     title: null
     style:
-      top: 73.94%
+      top: 74.00%
       left: 67.97%
       border-radius: 50%
       text-align: center
@@ -664,7 +699,7 @@ elements:
     entity: climate.master_s_room_ac
     title: null
     style:
-      top: 39.02%
+      top: 39.09%
       left: 64.16%
       border-radius: 50%
       text-align: center
@@ -680,7 +715,7 @@ elements:
     entity: climate.bedroom_1_ac
     title: null
     style:
-      top: 38.98%
+      top: 39.05%
       left: 40.47%
       border-radius: 50%
       text-align: center
