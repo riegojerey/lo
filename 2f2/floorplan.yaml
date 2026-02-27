@@ -1,5 +1,5 @@
 type: picture-elements
-image: /local/floorplan/2F/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
 elements:
   - type: conditional
     title: Base
@@ -11,31 +11,12 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/base.png?version=A2B5C5474FD07AA4BABB1B50D6D4358B
+        image: /local/floorplan/base.png?version=0C4C045903B41C95982FA68D10D29D21
         filter: none
         style:
           left: 50%
           top: 50%
           width: 100%
-  - type: conditional
-    title: switch.masters_wall_lights
-    conditions:
-      - condition: state
-        entity: switch.masters_wall_lights
-        state: 'on'
-    elements:
-      - type: image
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        image: /local/floorplan/2F/switch.masters_wall_lights.png?version=6F03072BDFE65BE9AF631602D92552D5
-        filter: none
-        style:
-          left: 50%
-          top: 50%
-          width: 100%
-          mix-blend-mode: lighten
   - type: conditional
     title: switch.secondfloor_bathroom_pin_lights
     conditions:
@@ -48,26 +29,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.secondfloor_bathroom_pin_lights.png?version=18F9C89D84B767BD58EA2CA4ADC82A85
-        filter: none
-        style:
-          left: 50%
-          top: 50%
-          width: 100%
-          mix-blend-mode: lighten
-  - type: conditional
-    title: switch.secondfloor_bathroom_lights
-    conditions:
-      - condition: state
-        entity: switch.secondfloor_bathroom_lights
-        state: 'on'
-    elements:
-      - type: image
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        image: /local/floorplan/2F/switch.secondfloor_bathroom_lights.png?version=B481E2C3994357363182B2168A78BD71
+        image: /local/floorplan/switch.secondfloor_bathroom_pin_lights.png?version=A5E143BE37EAAD8903443BD2536797BF
         filter: none
         style:
           left: 50%
@@ -86,7 +48,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_center_lights.png?version=769A673119E12D00DAA214F07CFE902B
+        image: /local/floorplan/switch.masters_center_lights.png?version=85D662685F6F4A87BC70CAFA110344D2
         filter: none
         style:
           left: 50%
@@ -105,7 +67,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_balcony_pin_lights.png?version=4B7F61FA0E4EAE1AA1743AEF73AD2088
+        image: /local/floorplan/switch.masters_balcony_pin_lights.png?version=950BDDBDEB294E4BCB1B2BA373EB8078
         filter: none
         style:
           left: 50%
@@ -124,7 +86,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_strip_lights.png?version=91263CC71377E933AE006B6D8C621E45
+        image: /local/floorplan/switch.br1_strip_lights.png?version=42B6404A379D6B120958257826C4A34C
         filter: none
         style:
           left: 50%
@@ -143,7 +105,26 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_closet_lights.png?version=52EE475F69709D8FE5C2DB91386ECA75
+        image: /local/floorplan/switch.masters_closet_lights.png?version=AAA900FA85BD24DB8A9DE6B6A2205AE6
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.masters_right
+    conditions:
+      - condition: state
+        entity: switch.masters_right
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.masters_right.png?version=354BE93B442364B9091527BA2D361B76
         filter: none
         style:
           left: 50%
@@ -162,7 +143,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.2f_t_b_vanity.png?version=A2502C39795C9734E3C1EA7E1DEC1B09
+        image: /local/floorplan/switch.2f_t_b_vanity.png?version=301FAA1EE0DDA04FEE865C70DD47DC08
         filter: none
         style:
           left: 50%
@@ -181,7 +162,26 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_balcony_pin_lights.png?version=D6D6BE47E7640EE17867CBB29F48E213
+        image: /local/floorplan/switch.br1_balcony_pin_lights.png?version=804D8630B15EC4877025FC500325C06A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.master_s_bed_lamp_light_left
+    conditions:
+      - condition: state
+        entity: switch.master_s_bed_lamp_light_left
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.master_s_bed_lamp_light_left.png?version=217BE1D6CCA7423E35FD53E3E21F2424
         filter: none
         style:
           left: 50%
@@ -200,26 +200,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_pin_lights.png?version=347151D3A75D5874FA46C01A0F19D05B
-        filter: none
-        style:
-          left: 50%
-          top: 50%
-          width: 100%
-          mix-blend-mode: lighten
-  - type: conditional
-    title: switch.2f_t_b_niche
-    conditions:
-      - condition: state
-        entity: switch.2f_t_b_niche
-        state: 'on'
-    elements:
-      - type: image
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        image: /local/floorplan/2F/switch.2f_t_b_niche.png?version=2CD508162412CD4814F2B94F28A8683E
+        image: /local/floorplan/switch.br1_pin_lights.png?version=09351FED789996D7FAD638C5EF095DAC
         filter: none
         style:
           left: 50%
@@ -238,7 +219,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.secondfloor_hallway_lights.png?version=47D143E6A20CDCD62AF57C050DCBBAD2
+        image: /local/floorplan/switch.secondfloor_hallway_lights.png?version=84471ACAE9B2A9961896CD10EB47E0CB
         filter: none
         style:
           left: 50%
@@ -257,7 +238,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_balcony_wall_lights.png?version=48E65D95E569811F45BA512EA412FA3B
+        image: /local/floorplan/switch.br1_balcony_wall_lights.png?version=DCCB07796F2B40B4A9AB20C3B623370B
         filter: none
         style:
           left: 50%
@@ -276,7 +257,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_center_lights.png?version=0252808C18AD86331B6300C929B9553D
+        image: /local/floorplan/switch.br1_center_lights.png?version=EA631B81E4A8109C88DB869F93C7ED9E
         filter: none
         style:
           left: 50%
@@ -295,7 +276,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_pin_lights.png?version=938C7FDFC4884BBCE6F5A5ED55DFEAB5
+        image: /local/floorplan/switch.masters_pin_lights.png?version=1DCDE48EB79E68EDB868FA0063A45E54
         filter: none
         style:
           left: 50%
@@ -314,7 +295,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_strip_lights.png?version=2E69678150A9D785CB3008D0E34A1065
+        image: /local/floorplan/switch.masters_strip_lights.png?version=F7215A4B549CD27C982EF84FE0240907
         filter: none
         style:
           left: 50%
@@ -333,7 +314,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.masters_balcony_wall_lights.png?version=048E64D4BDDF4403C96D552BDA956C0B
+        image: /local/floorplan/switch.masters_balcony_wall_lights.png?version=F82F1C7531F6AC40606A082AC940DE1A
         filter: none
         style:
           left: 50%
@@ -352,7 +333,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/2F/switch.br1_closet_lights.png?version=DE94FC16054888F82F5D9254F3061175
+        image: /local/floorplan/switch.br1_closet_lights.png?version=0BE03CEDB8B1B108ED1BC240DD076F32
         filter: none
         style:
           left: 50%
@@ -360,43 +341,11 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: state-icon
-    entity: switch.masters_wall_lights
-    title: null
-    style:
-      top: 62.57%
-      left: 78.51%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
     entity: switch.secondfloor_bathroom_pin_lights
     title: null
     style:
-      top: 26.40%
-      left: 48.53%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.secondfloor_bathroom_lights
-    title: null
-    style:
-      top: 26.46%
-      left: 57.47%
+      top: 28.38%
+      left: 52.70%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -411,8 +360,8 @@ elements:
     entity: switch.masters_center_lights
     title: null
     style:
-      top: 58.42%
-      left: 72.93%
+      top: 58.16%
+      left: 71.00%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -427,8 +376,8 @@ elements:
     entity: switch.masters_balcony_pin_lights
     title: null
     style:
-      top: 93.37%
-      left: 72.31%
+      top: 89.60%
+      left: 70.41%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -443,8 +392,8 @@ elements:
     entity: switch.br1_strip_lights
     title: null
     style:
-      top: 61.28%
-      left: 30.41%
+      top: 60.59%
+      left: 32.03%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -459,8 +408,24 @@ elements:
     entity: switch.masters_closet_lights
     title: null
     style:
-      top: 28.77%
-      left: 70.94%
+      top: 30.96%
+      left: 69.06%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.masters_right
+    title: null
+    style:
+      top: 72.86%
+      left: 76.12%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -475,8 +440,8 @@ elements:
     entity: switch.2f_t_b_vanity
     title: null
     style:
-      top: 19.14%
-      left: 57.02%
+      top: 21.51%
+      left: 56.47%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -491,8 +456,24 @@ elements:
     entity: switch.br1_balcony_pin_lights
     title: null
     style:
-      top: 67.81%
-      left: 26.90%
+      top: 66.27%
+      left: 28.83%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.master_s_bed_lamp_light_left
+    title: null
+    style:
+      top: 50.63%
+      left: 75.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -507,24 +488,8 @@ elements:
     entity: switch.br1_pin_lights
     title: null
     style:
-      top: 64.47%
-      left: 34.48%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.2f_t_b_niche
-    title: null
-    style:
-      top: 27.07%
-      left: 45.93%
+      top: 63.42%
+      left: 35.63%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -539,8 +504,8 @@ elements:
     entity: switch.secondfloor_hallway_lights
     title: null
     style:
-      top: 41.29%
-      left: 52.99%
+      top: 41.88%
+      left: 52.67%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -555,8 +520,8 @@ elements:
     entity: switch.br1_balcony_wall_lights
     title: null
     style:
-      top: 80.88%
-      left: 35.35%
+      top: 78.58%
+      left: 36.53%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -571,8 +536,8 @@ elements:
     entity: switch.br1_center_lights
     title: null
     style:
-      top: 60.49%
-      left: 33.06%
+      top: 58.83%
+      left: 34.54%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -587,8 +552,8 @@ elements:
     entity: switch.masters_pin_lights
     title: null
     style:
-      top: 57.87%
-      left: 70.24%
+      top: 57.53%
+      left: 68.25%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -603,8 +568,8 @@ elements:
     entity: switch.masters_strip_lights
     title: null
     style:
-      top: 60.45%
-      left: 76.00%
+      top: 59.46%
+      left: 73.51%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -619,8 +584,8 @@ elements:
     entity: switch.masters_balcony_wall_lights
     title: null
     style:
-      top: 80.64%
-      left: 70.38%
+      top: 78.34%
+      left: 68.77%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -635,8 +600,8 @@ elements:
     entity: switch.br1_closet_lights
     title: null
     style:
-      top: 28.75%
-      left: 35.02%
+      top: 30.48%
+      left: 36.29%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -651,8 +616,8 @@ elements:
     entity: cover.bedroom_1_curtain_motor
     title: null
     style:
-      top: 76.11%
-      left: 35.37%
+      top: 73.77%
+      left: 36.51%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -667,8 +632,8 @@ elements:
     entity: cover.bedroom_1_small_curtain_motor
     title: null
     style:
-      top: 36.56%
-      left: 26.99%
+      top: 37.54%
+      left: 28.77%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -683,8 +648,8 @@ elements:
     entity: cover.master_s_bedroom_curtain_motor
     title: null
     style:
-      top: 76.27%
-      left: 69.51%
+      top: 73.94%
+      left: 67.97%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -699,8 +664,8 @@ elements:
     entity: climate.master_s_room_ac
     title: null
     style:
-      top: 38.10%
-      left: 65.44%
+      top: 39.02%
+      left: 64.16%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -715,8 +680,8 @@ elements:
     entity: climate.bedroom_1_ac
     title: null
     style:
-      top: 38.06%
-      left: 39.61%
+      top: 38.98%
+      left: 40.47%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
