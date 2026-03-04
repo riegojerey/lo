@@ -11,7 +11,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/base.png?version=487D8DE240F4D50FAC727E0C991C3307
+        image: /local/floorplan/base.png?version=549121C73C3BE702EAA12B267C1D1022
         filter: none
         style:
           left: 50%
@@ -29,7 +29,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.pantry_lights.png?version=FD747881DFFF6727E56AE50CBD590854
+        image: /local/floorplan/switch.pantry_lights.png?version=7E378B87FF5AC753F8957E8BFBDA8EF7
         filter: none
         style:
           left: 50%
@@ -48,7 +48,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.guest_center_lights.png?version=2FD1F58ADC7651F48CB9815DF04B6A66
+        image: /local/floorplan/switch.guest_center_lights.png?version=18EF73BBCEED8BFC370C3828DC4B0390
         filter: none
         style:
           left: 50%
@@ -67,7 +67,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.kitchen_pin_lights.png?version=50B289607461DBDF025DBFD43F6C3969
+        image: /local/floorplan/switch.kitchen_pin_lights.png?version=3B6FFFA6866D9870AD7B5FC0539327DE
         filter: none
         style:
           left: 50%
@@ -86,7 +86,26 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.guest_pin_lights.png?version=90BBF278D9EFBBBEC8F605A8D2C75A3D
+        image: /local/floorplan/switch.guest_pin_lights.png?version=87CD1E424455B49DEDCD22B198805F5C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: switch.exhaust
+    conditions:
+      - condition: state
+        entity: switch.exhaust
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/switch.exhaust.png?version=8FFBDC29687F7491DCC16903D5B0D290
         filter: none
         style:
           left: 50%
@@ -105,7 +124,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.living_center_lights.png?version=118291D1BBA9FFDDEA777FA04A4618C0
+        image: /local/floorplan/switch.living_center_lights.png?version=F881ED582F88AE7C7D75ADF4D4400B19
         filter: none
         style:
           left: 50%
@@ -124,7 +143,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.powder_lights.png?version=3A675956C3D7D7F618BCAA2CCD1E4773
+        image: /local/floorplan/switch.powder_lights.png?version=FB2964F1E041871CD6509F10D2FE58A1
         filter: none
         style:
           left: 50%
@@ -143,7 +162,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.living_strip_light.png?version=41AA703A86FB95A0413FA2E5CC54DF72
+        image: /local/floorplan/switch.living_strip_light.png?version=4CEA2591CD9A7013A467616D693B7FF8
         filter: none
         style:
           left: 50%
@@ -162,7 +181,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.dining_center_lights.png?version=4E3588797907D4E3583CC9E65F14772F
+        image: /local/floorplan/switch.dining_center_lights.png?version=35E653D142CB9092D4686D54888DB721
         filter: none
         style:
           left: 50%
@@ -181,7 +200,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.living_pin_lights.png?version=8A159EC93622C0EC69A6F31ADACC0A25
+        image: /local/floorplan/switch.living_pin_lights.png?version=5B56EA5950BD18D1BBB1C02F7F50F30A
         filter: none
         style:
           left: 50%
@@ -200,7 +219,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.serivce_kitchen_lights.png?version=6EF9C51975133AACD3C4D19397B990FF
+        image: /local/floorplan/switch.serivce_kitchen_lights.png?version=215FF58C472F99610B0E00F50F9DDEFD
         filter: none
         style:
           left: 50%
@@ -219,7 +238,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.service_area_lights.png?version=4406DD712CEF85CE5920BE77865D07A2
+        image: /local/floorplan/switch.service_area_lights.png?version=9B98AD3DDEDC5BB5BC78BFB1CF90FCC1
         filter: none
         style:
           left: 50%
@@ -238,7 +257,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.kitchen_cabinet_lights.png?version=39D2AE6B5FAB5FD37FEB799C5059886F
+        image: /local/floorplan/switch.kitchen_cabinet_lights.png?version=615CC30CF7A0CB269E8022F225BB2198
         filter: none
         style:
           left: 50%
@@ -257,7 +276,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.entrance_lights.png?version=49C61C3746965E86B26429F2AACAFB5C
+        image: /local/floorplan/switch.entrance_lights.png?version=B156826385C8343C51E50AB0ED19FF3E
         filter: none
         style:
           left: 50%
@@ -276,7 +295,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.gate_lights.png?version=A1A3A093DDB145B8E6268DEAF906E1F8
+        image: /local/floorplan/switch.gate_lights.png?version=3F64D56AEB57EE3A3851AB9BF21C3DB3
         filter: none
         style:
           left: 50%
@@ -295,7 +314,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.garage_lights.png?version=89F5E484550093ABA36DE8961ECFF474
+        image: /local/floorplan/switch.garage_lights.png?version=EC9DE2DEE0E7210D9C0B66793EC1D835
         filter: none
         style:
           left: 50%
@@ -314,7 +333,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.dining_pin_lights.png?version=34CD7D83ACA5A6D8DEA4E08E91EED1E6
+        image: /local/floorplan/switch.dining_pin_lights.png?version=D7E748DC2F9AA884503D6FA6DB705E39
         filter: none
         style:
           left: 50%
@@ -325,8 +344,8 @@ elements:
     entity: switch.pantry_lights
     title: null
     style:
-      top: 42.43%
-      left: 71.15%
+      top: 42.31%
+      left: 73.34%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -341,8 +360,8 @@ elements:
     entity: switch.guest_center_lights
     title: null
     style:
-      top: 16.83%
-      left: 68.94%
+      top: 13.69%
+      left: 71.37%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -357,8 +376,8 @@ elements:
     entity: switch.kitchen_pin_lights
     title: null
     style:
-      top: 47.50%
-      left: 57.58%
+      top: 40.01%
+      left: 55.65%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -373,8 +392,24 @@ elements:
     entity: switch.guest_pin_lights
     title: null
     style:
-      top: 21.50%
-      left: 68.65%
+      top: 18.55%
+      left: 70.83%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.exhaust
+    title: null
+    style:
+      top: 66.97%
+      left: 56.30%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -389,8 +424,8 @@ elements:
     entity: switch.living_center_lights
     title: null
     style:
-      top: 60.61%
-      left: 37.66%
+      top: 63.56%
+      left: 36.39%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -405,8 +440,8 @@ elements:
     entity: switch.powder_lights
     title: null
     style:
-      top: 64.99%
-      left: 52.89%
+      top: 65.41%
+      left: 49.91%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -421,8 +456,8 @@ elements:
     entity: switch.living_strip_light
     title: null
     style:
-      top: 64.71%
-      left: 39.46%
+      top: 65.76%
+      left: 38.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -437,8 +472,8 @@ elements:
     entity: switch.dining_center_lights
     title: null
     style:
-      top: 39.97%
-      left: 39.14%
+      top: 39.11%
+      left: 38.27%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -453,8 +488,8 @@ elements:
     entity: switch.living_pin_lights
     title: null
     style:
-      top: 60.07%
-      left: 40.48%
+      top: 61.01%
+      left: 39.27%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -469,8 +504,8 @@ elements:
     entity: switch.serivce_kitchen_lights
     title: null
     style:
-      top: 12.23%
-      left: 49.27%
+      top: 7.92%
+      left: 49.30%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -485,8 +520,8 @@ elements:
     entity: switch.service_area_lights
     title: null
     style:
-      top: 30.68%
-      left: 27.61%
+      top: 28.64%
+      left: 25.22%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -501,8 +536,8 @@ elements:
     entity: switch.kitchen_cabinet_lights
     title: null
     style:
-      top: 36.77%
-      left: 54.90%
+      top: 29.09%
+      left: 55.44%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -517,8 +552,8 @@ elements:
     entity: switch.entrance_lights
     title: null
     style:
-      top: 74.86%
-      left: 32.82%
+      top: 77.04%
+      left: 31.33%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -533,8 +568,8 @@ elements:
     entity: switch.gate_lights
     title: null
     style:
-      top: 93.97%
-      left: 49.74%
+      top: 96.61%
+      left: 49.60%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -549,8 +584,8 @@ elements:
     entity: switch.garage_lights
     title: null
     style:
-      top: 65.67%
-      left: 65.96%
+      top: 67.74%
+      left: 67.33%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -565,8 +600,8 @@ elements:
     entity: switch.dining_pin_lights
     title: null
     style:
-      top: 35.31%
-      left: 40.12%
+      top: 34.35%
+      left: 38.87%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -581,8 +616,8 @@ elements:
     entity: cover.living_area_long
     title: null
     style:
-      top: 60.73%
-      left: 31.80%
+      top: 61.07%
+      left: 30.23%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -597,8 +632,8 @@ elements:
     entity: cover.dining_window_2
     title: null
     style:
-      top: 39.29%
-      left: 31.99%
+      top: 37.56%
+      left: 30.28%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -613,8 +648,8 @@ elements:
     entity: cover.dining_window_1
     title: null
     style:
-      top: 28.41%
-      left: 40.16%
+      top: 25.50%
+      left: 39.21%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -629,8 +664,8 @@ elements:
     entity: climate.guest_room_ac
     title: null
     style:
-      top: 34.18%
-      left: 70.62%
+      top: 32.87%
+      left: 72.85%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -645,8 +680,8 @@ elements:
     entity: cover.living_area_short
     title: null
     style:
-      top: 71.62%
-      left: 36.18%
+      top: 72.85%
+      left: 35.04%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -661,8 +696,8 @@ elements:
     entity: climate.living_dining_ac
     title: null
     style:
-      top: 42.51%
-      left: 67.11%
+      top: 42.14%
+      left: 68.86%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
